@@ -1,0 +1,226 @@
+/* =========================
+   GENERAL
+========================= */
+
+body{
+    background:#f4f8fb;
+    font-family:'Segoe UI',sans-serif;
+    color:#333;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar{
+    background:linear-gradient(90deg,#0c2340,#163d6b) !important;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+    color:#ffc107 !important;
+    font-size:22px;
+    font-weight:700;
+}
+
+.nav-link{
+    color:white !important;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.card{
+    border:none;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card-header{
+    background:#0c2340;
+    color:white;
+    border-radius:20px 20px 0 0 !important;
+}
+
+/* =========================
+   DASHBOARD BOXES
+========================= */
+
+.card-box{
+    border-radius:20px;
+    padding:25px;
+    color:white;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card-box:hover{
+    transform:translateY(-6px);
+}
+
+.blue{
+    background:linear-gradient(135deg,#4e73df,#224abe);
+}
+
+.green{
+    background:linear-gradient(135deg,#1cc88a,#13855c);
+}
+
+.orange{
+    background:linear-gradient(135deg,#f6c23e,#dda20a);
+}
+
+.red{
+    background:linear-gradient(135deg,#e74a3b,#be2617);
+}
+
+.title{
+    font-size:16px;
+    font-weight:600;
+}
+
+.value{
+    font-size:30px;
+    font-weight:700;
+    margin-top:10px;
+}
+
+/* =========================
+   FORM
+========================= */
+
+.form-control,
+.form-select{
+    border-radius:12px;
+    padding:10px;
+}
+
+.form-control:focus,
+.form-select:focus{
+    border-color:#0d6efd;
+    box-shadow:0 0 10px rgba(13,110,253,.2);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn{
+    border-radius:12px;
+    font-weight:600;
+}
+
+.btn-primary{
+    background:#0d6efd;
+}
+
+.btn-success{
+    background:#198754;
+}
+
+.btn-danger{
+    background:#dc3545;
+}
+
+/* =========================
+   TABLE
+========================= */
+
+.table{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.table th{
+    background:#0c2340;
+    color:white;
+}
+
+.table tbody tr:hover{
+    background:#f8f9fa;
+}
+
+/* =========================
+   ALERTS
+========================= */
+
+.alert{
+    border:none;
+    border-radius:12px;
+}
+
+/* =========================
+   PAGE TITLE
+========================= */
+
+.page-title{
+    font-size:32px;
+    font-weight:700;
+    color:#0c2340;
+}
+
+.page-subtitle{
+    color:#666;
+    margin-bottom:20px;
+}
+
+/* =========================
+   LOGIN / REGISTER
+========================= */
+
+.auth-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-image:url('../images.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.login-card{
+    width:100%;
+    max-width:480px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:25px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+}
+
+.logo-title{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.logo-title h2{
+    color:#0d6efd;
+    font-weight:700;
+}
+
+.logo-title p{
+    color:#777;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer{
+    text-align:center;
+    padding:15px;
+    color:#888;
+}
