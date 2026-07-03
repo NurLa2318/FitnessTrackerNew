@@ -30,7 +30,7 @@ if(isset($_GET['delete'])){
 
 /* WEATHER API */
 
-$weather_json = @file_get_contents("http://localhost/fitness_tracker/pages/weather_api.php");
+$weather_json = @file_get_contents("http://localhost/fitness_tracker/api/weather_api.php");
 
 $weather = json_decode($weather_json, true);
 
